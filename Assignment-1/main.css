@@ -1,0 +1,73 @@
+body{
+    background-color: rgba(35, 125, 178, 0.7);
+}
+.main-table {
+	margin-top:100px !important;
+    background-color: white;
+    margin: auto;
+	border: 1px solid #68a0e3;
+	border-collapse: collapse;
+	width: 500px;
+    box-shadow: 5px 5px 5px gray;
+}
+
+.login-button {
+	margin-top: 30px;
+	background-color: #5edb65;
+	padding: 8px 30px;
+	border-radius: 12px;
+}
+
+.register-button {
+	margin-top: 30px;
+	background-color: #5a60db;
+	padding: 8px 30px;
+	border-radius: 12px;
+}
+
+.main-table tr td:not(:first-child) {
+	height: 60px;
+	padding: 10px;
+}
+
+.main-table tr:first-child {
+	height: 90px;
+	text-align: center;
+	font-weight: bold;
+    font-size: 24px;
+    color: white;
+    background-color: #68a0e3;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-table td:first-child {
+	padding: 10px 30px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+   }
+
+.main-table tr:last-child {
+	height: 50px;
+	text-align: center;
+}
+
+.radio-row{
+    text-align: center;
+}
+
+.auth-link{
+	text-decoration: none;
+	color: blue;
+	font-weight: normal;
+	font-size: 15px;
+	
+}
+
+input[type=text],
+input[type=password],
+input[type=date],
+input[type=email],
+select
+{
+    width: 280px;
+}

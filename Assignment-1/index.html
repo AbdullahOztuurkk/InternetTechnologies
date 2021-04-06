@@ -1,0 +1,70 @@
+<html>
+
+<head>
+    <title>Üye Kayıt</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="main.css" />
+</head>
+
+<body>
+    <form method="POST" action="">
+    <table class="main-table">
+        <tr>
+            <td colspan="2">Üye Kayıt Formu</td>
+        </tr>
+        <tr>
+            <td>Adınız :</td>
+            <td><input type="text" name="user-name" id="user-name" placeholder="Abdullah"></td>
+        </tr>
+        <tr>
+            <td>Soyadınız :</td>
+            <td><input type="text" name="user-surname" id="user-surname" placeholder="Öztürk"></td>
+        </tr>
+        <tr>
+            <td>Cinsiyetiniz :</td>
+            <td class="radio-row">
+                <input type="radio" name="row-1" data-col="1" value="Kadın">Kadın
+                <input type="radio" name="row-1" data-col="1" value="Erkek">Erkek
+            </td>
+        </tr>
+        <tr>
+            <td>Email adresiniz :</td>
+            <td><input type="email" id="user-email" id="text-email" placeholder="deneme@gmail.com"></td>
+        </tr>
+        <tr>
+            <td>Doğum Tarihiniz :</td>
+            <td><input type="date" id="birth-place" data-col="1"></td>
+        </tr>
+        <tr>
+            <td>Doğum Yeriniz :</td>
+            <td>
+                <select id="birth-place" name="birth-place">
+                    <option value="İstanbul" selected>İstanbul</option>
+                    <option value="Ankara">Ankara</option>
+                    <option value="İzmir">İzmir</option>
+                    <option value="Sivas">Sivas</option>
+                    <option value="Diğer">Diğer</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Şifreniz :</td>
+            <td><input type="password" name="password" id="password"></td>
+        </tr>
+        <tr>
+            <td>Şifreniz(Tekrar) :</td>
+            <td><input type="password" name="samePassword" id="password-same"></td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <button class="register-button" type="submit">Kayıt Ol</button>
+                <p>
+                    <a class="auth-link" href="login.html" target="_blank">Zaten bir hesabım var</a>
+                </p>
+            </td>
+        </tr>
+    </table>
+    </form>
+</body>
+
+</html>
