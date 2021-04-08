@@ -8,6 +8,6 @@ You can access the projects in the 'internet technologies' course, which I took 
 
 ### Projects
 
-| **Name** | **Link** | **Demo**  |
-| --- | --- | --- |
-| Basic Responsive Form | [index.html](./Assignment-1/index.html) | [Demo](https://internet-technologies.vercel.app/Assignment-1/index.html) |
+| **Name** | **Link** | **Demo**  | **Youtube Video** |
+| --- | --- | --- | --- |
+| Basic Responsive Form | [index.html](./Assignment-1/index.html) | [Demo](https://internet-technologies.vercel.app/Assignment-1/index.html) | [Video](https://www.youtube.com/watch?v=85mTQlc_T6M)
