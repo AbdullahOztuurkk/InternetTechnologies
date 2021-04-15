@@ -1,0 +1,74 @@
+body {
+	background-color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 0px;
+	margin: 0px;
+}
+
+.page,
+.page-content {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.page-menu {
+	overflow: hidden;
+	margin: auto;
+	padding: 5px 20px;
+	background-color: rgba(219, 223, 224, 0.938);
+}
+
+.page-menu ul {
+	padding: 0px;
+	margin: 0px;
+}
+
+.page-menu li {
+	list-style-type: none;
+	float: left;
+	width: 20%;
+	text-align: center;
+	padding: 10px 0px;
+}
+.page-menu li:hover{
+	scale: 1.05;
+	background-color: gray;
+}
+
+.page-menu ul li a {
+	text-decoration: none;
+	color: black;
+}
+.column {
+	float: left;
+	padding: 10px 0px;
+	height: 80%;
+	text-align: center;
+}
+.left,
+.right {
+	width: 290px;
+	margin-top: 30px;
+	background-color: rgba(211, 211, 211, 0.288);
+}
+.middle {
+	margin: 30px 0px;
+	background-color: rgba(59, 61, 60, 0.1);
+	width: 50%;
+}
+.left {
+	margin-right: 10px;
+}
+.right {
+	margin-left: 10px;
+}
+
+.footer {
+	clear: both;
+	padding: 20px;
+	text-align: center;
+	background-color: rgba(211, 211, 211, 0.2);
+}
+.banner{
+	padding: 20px 0px;;
+}
