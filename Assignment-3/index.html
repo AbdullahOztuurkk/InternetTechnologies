@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Google</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" type="text/css" media="screen" href="./css/main.css"/>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<div class="navbar">
+			<div class="tab">
+				<ul>
+					<li class="browser-tab">
+						<i class="fa fa-google tab-icon" aria-hidden="true"></i>
+						<span>Google</span>
+						<a><i class="fa fa-times exit-icon" aria-hidden="true"></i></a>
+					</li>
+					<li class="browser-tab-add">
+						<a><i class="fa fa-plus add-icon" aria-hidden="true"></i></a>
+					</li>
+					<li class="browser-option">
+						<a><i class="fa fa-window-minimize" aria-hidden="true"></i></a>
+					</li>
+					<li class="browser-option">
+						<a><i class="fa fa-window-maximize" aria-hidden="true"></i></a>
+					</li>
+					<li class="browser-option">
+						<a><i class="fa fa-times exit-icon" aria-hidden="true"></i></a>
+					</li>
+				</ul>
+			</div>
+			<!--Browser Tab column-->
+			<table>
+				<tr>
+					<td>
+						<a><i class="fa fa-arrow-left" aria-hidden="true"></i></a>
+					</td><!--Previous Page column-->
+					<td>
+						<a><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+					</td><!--Next Page Column-->
+					<td>
+						<a><i class="fa fa-refresh" aria-hidden="true"></i></a>
+					</td><!--Reload Page column-->
+					<td class="search-column">
+						<a><i class="fa fa-lock" aria-hidden="true"></i></i></a>
+						<input type="text" class="search-bar" autocomplete="off" value="google.com"/>
+						<a><i class="fa fa-star-o search-bar-star" aria-hidden="true"></i></a>
+					</td><!--Search bar column-->
+					<td>
+						<a><i class="fa fa-bookmark" aria-hidden="true"></i></a>
+					</td><!--Bookmark column (Actually translate column)-->
+					<td>
+						<a><i class="fa fa-puzzle-piece" aria-hidden="true"></i></a>
+					</td><!--Extensions column-->
+					<td class="incognito-column">
+						<div class="incognito-mode">
+							<i class="fa fa-user-secret" aria-hidden="true"></i>
+							<span>Gizli Mod</span>
+						</div>
+					</td><!--Incognito column-->
+					<td>
+						<i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+					</td><!--Settings Column-->
+				</tr>
+			</table>
+		</div>
+		<!--Navbar-->
+		<div class="page-content">
+			<div class="search-area">
+				<img class="home-image" src="images/poster.png" alt="Google Image">
+				<input type="text" class="home-search-bar"/>
+				<button type="submit">Google'da Ara</button>
+				<button type="submit">Kendimi şanslı hissediyorum</button>
+			</div>
+		</div>
+		<!--Page content-->
+		<footer>
+			<span id="location">Türkiye</span>
+			<ul>
+				<li><span>Hakkında</span></li>
+				<li><span>Reklam</span></li>
+				<li><span>İşletme</span></li>
+				<li><span>Arama Nasıl Çalışır?</span></li>
+			</ul>
+			<ul>
+				<li class="right-menu"><td><span>Gizlilik</span></td></li>
+				<li class="right-menu"><td><span>Şartlar</span></td></li>
+				<li class="right-menu"><td><span>Ayarlar</span></td></li>
+			</ul>
+		</footer>
+	</body>
+</html>

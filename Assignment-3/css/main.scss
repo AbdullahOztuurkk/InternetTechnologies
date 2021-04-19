@@ -1,0 +1,187 @@
+$backgroundLightGray: rgb(75, 75, 75);
+$backgroundDarkGray: rgb(39, 39, 39);
+$GoogleColor: rgb(55, 57, 192);
+$BackgroundFooter: rgb(214, 208, 208);
+$ImageWidth:450px;
+$ImageHeight:175px;
+
+body {
+	background-color: white;
+	padding: 0px;
+	margin: 0px;
+	font-family: "Open Sans", sans-serif;
+	.navbar {
+		width: 100%;
+		background-color: $backgroundDarkGray;
+		height: 80px;
+		.tab {
+			margin-left: 10px;
+			height: 45%;
+			width: auto;
+			ul {
+				overflow: hidden;
+				margin: 0px;
+				padding: 0px;
+				list-style-type: none;
+				.browser-tab {
+					border-radius: 10px 10px 0px 0px;
+					background-color: $backgroundLightGray;
+					float: left;
+					width: 200px;
+					i:hover:not(.tab-icon) {
+						background-color: rgba($backgroundDarkGray, 0.4);
+					}
+				}
+				.browser-tab-add {
+					float: inline-start;
+					i:hover {
+						background-color: rgba($backgroundLightGray, 0.4);
+					}
+				}
+				.browser-option{
+					float: right;
+					margin-left: 3px;
+					a i{
+						color: rgba(211,211,211,0.7);
+					}
+					i:hover {
+						background-color: rgba($backgroundLightGray, 0.4);
+					}
+				}
+			}
+			i {
+				padding: 10px 5px;
+				color: white;
+			}
+			.exit-icon {
+				float: right;
+			}
+			span {
+				color: white;
+				font-size: small;
+			}
+			.add-icon {
+				float: inline-end;
+			}
+		}
+		table {
+			width: 100%;
+			height: 50%;
+			padding-left: 10px;
+			background-color: $backgroundLightGray;
+			tr {
+				width: 100%;
+				td:not(.search-column) {
+					margin-left: 5px;
+					color: white;
+					width: 25px;
+					text-align: center;
+					scale: 1.05;
+					&:hover:not(.incognito-column) {
+						background-color: $backgroundDarkGray;
+					}
+				}
+				td .search-bar {
+					max-width: 97%;
+					min-width: 95%;
+					height: 20px;
+					background-color: $backgroundDarkGray;
+					border-radius: 2em;
+					a {
+						text-decoration: none;
+						color: white;
+						margin-left: 5px;
+					}
+				}
+				.search-column {
+					i {
+						position: absolute;
+						margin: 3px 10px;
+						color: white;
+					}
+					input {
+						border: 1px solid $backgroundLightGray;
+						color: white;
+						padding-left: 27px;
+						font-family: "Open Sans", sans-serif;
+					}
+					input:focus {
+						outline: none;
+					}
+					.search-bar-star {
+						margin-left: -25px !important;
+					}
+				}
+				.incognito-mode {
+					width: 80px;
+					text-align: left;
+					padding: 1px;
+					border-radius: 25px;
+					background-color: $backgroundDarkGray;
+					i {
+						margin-left: 3px;
+					}
+					span {
+						font-size: 11px;
+						padding: 0 2px;
+					}
+				}
+			}
+		}
+	}
+	.page-content{
+		display: flex;
+  		align-items: center;
+  		justify-content: center;
+		text-align: center;
+		  height: 780px;
+		.search-area{
+			width: $ImageWidth;
+			button{
+				margin-top:30px;
+				padding:8px 13px;
+				font-family: "Open Sans", sans-serif;
+				border:none;
+			}
+			button:last-child{
+				margin-left: 30px;
+			}
+		}
+		.home-image{
+			margin: auto;
+			width: $ImageWidth;
+			height: $ImageHeight;
+		}
+		.home-search-bar{
+			width: $ImageWidth;
+			height: 30px;
+			border-radius: 20px;
+			border:1px solid rgba($backgroundLightGray, 0.6);
+			text-indent: 1em;
+			font-family: "Open Sans", sans-serif;
+			&:focus{
+				outline: none;
+			}
+		}
+		
+	}
+	footer {
+		background-color: rgba($BackgroundFooter,0.4);
+		padding:5px;
+		height: 75px;
+		#location{
+			margin-left: 50px !important;
+		}
+		ul {
+			width:95%;
+			li{
+				list-style-type: none;
+				float: left;
+				margin:3px 10px;
+			}
+			.right-menu{
+				float:right;
+			}
+		}
+	}
+}

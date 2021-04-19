@@ -1,0 +1,223 @@
+body {
+  background-color: white;
+  padding: 0px;
+  margin: 0px;
+  font-family: "Open Sans", sans-serif;
+}
+
+body .navbar {
+  width: 100%;
+  background-color: #272727;
+  height: 80px;
+}
+
+body .navbar .tab {
+  margin-left: 10px;
+  height: 45%;
+  width: auto;
+}
+
+body .navbar .tab ul {
+  overflow: hidden;
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+}
+
+body .navbar .tab ul .browser-tab {
+  border-radius: 10px 10px 0px 0px;
+  background-color: #4b4b4b;
+  float: left;
+  width: 200px;
+}
+
+body .navbar .tab ul .browser-tab i:hover:not(.tab-icon) {
+  background-color: rgba(39, 39, 39, 0.4);
+}
+
+body .navbar .tab ul .browser-tab-add {
+  float: inline-start;
+}
+
+body .navbar .tab ul .browser-tab-add i:hover {
+  background-color: rgba(75, 75, 75, 0.4);
+}
+
+body .navbar .tab ul .browser-option {
+  float: right;
+  margin-left: 3px;
+}
+
+body .navbar .tab ul .browser-option a i {
+  color: rgba(211, 211, 211, 0.7);
+}
+
+body .navbar .tab ul .browser-option i:hover {
+  background-color: rgba(75, 75, 75, 0.4);
+}
+
+body .navbar .tab i {
+  padding: 10px 5px;
+  color: white;
+}
+
+body .navbar .tab .exit-icon {
+  float: right;
+}
+
+body .navbar .tab span {
+  color: white;
+  font-size: small;
+}
+
+body .navbar .tab .add-icon {
+  float: inline-end;
+}
+
+body .navbar table {
+  width: 100%;
+  height: 50%;
+  padding-left: 10px;
+  background-color: #4b4b4b;
+}
+
+body .navbar table tr {
+  width: 100%;
+}
+
+body .navbar table tr td:not(.search-column) {
+  margin-left: 5px;
+  color: white;
+  width: 25px;
+  text-align: center;
+  scale: 1.05;
+}
+
+body .navbar table tr td:not(.search-column):hover:not(.incognito-column) {
+  background-color: #272727;
+}
+
+body .navbar table tr td .search-bar {
+  max-width: 97%;
+  min-width: 95%;
+  height: 20px;
+  background-color: #272727;
+  border-radius: 2em;
+}
+
+body .navbar table tr td .search-bar a {
+  text-decoration: none;
+  color: white;
+  margin-left: 5px;
+}
+
+body .navbar table tr .search-column i {
+  position: absolute;
+  margin: 3px 10px;
+  color: white;
+}
+
+body .navbar table tr .search-column input {
+  border: 1px solid #4b4b4b;
+  color: white;
+  padding-left: 27px;
+  font-family: "Open Sans", sans-serif;
+}
+
+body .navbar table tr .search-column input:focus {
+  outline: none;
+}
+
+body .navbar table tr .search-column .search-bar-star {
+  margin-left: -25px !important;
+}
+
+body .navbar table tr .incognito-mode {
+  width: 80px;
+  text-align: left;
+  padding: 1px;
+  border-radius: 25px;
+  background-color: #272727;
+}
+
+body .navbar table tr .incognito-mode i {
+  margin-left: 3px;
+}
+
+body .navbar table tr .incognito-mode span {
+  font-size: 11px;
+  padding: 0 2px;
+}
+
+body .page-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  height: 780px;
+}
+
+body .page-content .search-area {
+  width: 450px;
+}
+
+body .page-content .search-area button {
+  margin-top: 30px;
+  padding: 8px 13px;
+  font-family: "Open Sans", sans-serif;
+  border: none;
+}
+
+body .page-content .search-area button:last-child {
+  margin-left: 30px;
+}
+
+body .page-content .home-image {
+  margin: auto;
+  width: 450px;
+  height: 175px;
+}
+
+body .page-content .home-search-bar {
+  width: 450px;
+  height: 30px;
+  border-radius: 20px;
+  border: 1px solid rgba(75, 75, 75, 0.6);
+  text-indent: 1em;
+  font-family: "Open Sans", sans-serif;
+}
+
+body .page-content .home-search-bar:focus {
+  outline: none;
+}
+
+body footer {
+  background-color: rgba(214, 208, 208, 0.4);
+  padding: 5px;
+  height: 75px;
+}
+
+body footer #location {
+  margin-left: 50px !important;
+}
+
+body footer ul {
+  width: 95%;
+}
+
+body footer ul li {
+  list-style-type: none;
+  float: left;
+  margin: 3px 10px;
+}
+
+body footer ul .right-menu {
+  float: right;
+}
+/*# sourceMappingURL=main.css.map */
