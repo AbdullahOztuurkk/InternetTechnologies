@@ -35,6 +35,12 @@ body .navbar .tab ul .browser-tab i:hover:not(.tab-icon) {
   background-color: rgba(39, 39, 39, 0.4);
 }
 
+body .navbar .tab ul .browser-tab .tab-icon {
+  color: #3739c0;
+  text-align: center;
+  width: 18px;
+}
+
 body .navbar .tab ul .browser-tab-add {
   float: inline-start;
 }
