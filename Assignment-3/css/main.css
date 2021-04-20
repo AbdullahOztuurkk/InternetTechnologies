@@ -149,6 +149,11 @@ body .navbar table tr .incognito-mode span {
   padding: 0 2px;
 }
 
+body .navbar table tr .translate-icon {
+  width: 15px;
+  height: 15px;
+}
+
 body .page-content {
   display: -webkit-box;
   display: -ms-flexbox;
