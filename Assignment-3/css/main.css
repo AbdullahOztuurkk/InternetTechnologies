@@ -76,6 +76,10 @@ body .navbar .tab .add-icon {
   float: inline-end;
 }
 
+body .navbar .tab .exit-icon {
+  float: right;
+}
+
 body .navbar table {
   width: 100%;
   height: 50%;
