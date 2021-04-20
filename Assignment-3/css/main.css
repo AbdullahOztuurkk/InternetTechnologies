@@ -67,10 +67,6 @@ body .navbar .tab i {
   color: white;
 }
 
-body .navbar .tab .exit-icon {
-  float: right;
-}
-
 body .navbar .tab span {
   color: white;
   font-size: small;

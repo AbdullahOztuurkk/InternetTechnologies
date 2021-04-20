@@ -1,5 +1,6 @@
 $backgroundLightGray: rgb(75, 75, 75);
 $backgroundDarkGray: rgb(39, 39, 39);
+$backgroundButtonGray: rgb(211,211,211);
 $GoogleColor: rgb(55, 57, 192);
 $BackgroundFooter: rgb(214, 208, 208);
 $ImageWidth:450px;
@@ -47,7 +48,7 @@ body {
 					float: right;
 					margin-left: 3px;
 					a i{
-						color: rgba(211,211,211,0.7);
+						color: rgba($backgroundButtonGray,0.7);
 					}
 					i:hover {
 						background-color: rgba($backgroundLightGray, 0.4);
@@ -57,9 +58,6 @@ body {
 			i {
 				padding: 10px 5px;
 				color: white;
-			}
-			.exit-icon {
-				float: right;
 			}
 			span {
 				color: white;
