@@ -1,7 +1,7 @@
 $backgroundLightGray: rgb(75, 75, 75);
 $backgroundDarkGray: rgb(39, 39, 39);
 $backgroundButtonGray: rgb(211,211,211);
-$GoogleColor: rgb(55, 57, 192);
+$GoogleColor: rgb(66,133,244);
 $BackgroundFooter: rgb(214, 208, 208);
 $ImageWidth:450px;
 $ImageHeight:175px;
@@ -47,7 +47,7 @@ body {
 				.browser-option{
 					float: right;
 					margin-left: 3px;
-					a i{
+					i{
 						color: rgba($backgroundButtonGray,0.7);
 					}
 					i:hover {
@@ -93,11 +93,6 @@ body {
 					height: 20px;
 					background-color: $backgroundDarkGray;
 					border-radius: 2em;
-					a {
-						text-decoration: none;
-						color: white;
-						margin-left: 5px;
-					}
 				}
 				.search-column {
 					i {
@@ -139,12 +134,34 @@ body {
 			}
 		}
 	}
+	.content-menu{
+		height: 20px;
+		font-size:14px;
+		list-style-type: none;
+		li{
+			padding: 6px 0px;
+			float: right;
+			margin-left: 22px;
+			&:first-child{
+				margin-right: 22px;
+			}
+		}
+		.session-button{
+			background-color: $GoogleColor;
+			padding: 6px 15px;
+			color:white;
+			border-radius: 5px;
+		}
+	}
+
 	.page-content{
+		clear: both;
 		display: flex;
   		align-items: center;
   		justify-content: center;
 		text-align: center;
-		  height: 780px;
+		height: 740px;
+		width: auto;
 		.search-area{
 			width: $ImageWidth;
 			button{
@@ -156,6 +173,20 @@ body {
 			button:last-child{
 				margin-left: 30px;
 			}
+			img:not(.home-image){
+				width: 1em;
+				position: absolute;
+				top: 542px;
+			}
+			.search-icon{
+				left: 758px;
+			}
+			.microphone-icon{
+				left: 1130px;
+			}
+			.keyboard-icon{
+				left: 1160px;
+			}
 		}
 		.home-image{
 			margin: auto;
@@ -164,15 +195,16 @@ body {
 		}
 		.home-search-bar{
 			width: $ImageWidth;
-			height: 30px;
+			height: 30px;			
 			border-radius: 20px;
 			border:1px solid rgba($backgroundLightGray, 0.6);
-			text-indent: 1em;
+			text-indent: 3em;
 			font-family: "Open Sans", sans-serif;
 			&:focus{
 				outline: none;
 			}
 		}
+		
 		
 	}
 	footer {
@@ -183,7 +215,6 @@ body {
 			margin-left: 50px !important;
 		}
 		ul {
-			width:95%;
 			li{
 				list-style-type: none;
 				float: left;
@@ -192,6 +223,9 @@ body {
 			.right-menu{
 				float:right;
 			}
+		}
+		ul:last-child{
+			border-top:1px solid rgba($backgroundLightGray, 0.4)
 		}
 	}
 }

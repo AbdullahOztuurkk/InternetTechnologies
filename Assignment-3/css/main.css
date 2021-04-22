@@ -36,7 +36,7 @@ body .navbar .tab ul .browser-tab i:hover:not(.tab-icon) {
 }
 
 body .navbar .tab ul .browser-tab .tab-icon {
-  color: #3739c0;
+  color: #4285f4;
   text-align: center;
   width: 18px;
 }
@@ -54,7 +54,7 @@ body .navbar .tab ul .browser-option {
   margin-left: 3px;
 }
 
-body .navbar .tab ul .browser-option a i {
+body .navbar .tab ul .browser-option i {
   color: rgba(211, 211, 211, 0.7);
 }
 
@@ -111,12 +111,6 @@ body .navbar table tr td .search-bar {
   border-radius: 2em;
 }
 
-body .navbar table tr td .search-bar a {
-  text-decoration: none;
-  color: white;
-  margin-left: 5px;
-}
-
 body .navbar table tr .search-column i {
   position: absolute;
   margin: 3px 10px;
@@ -160,7 +154,31 @@ body .navbar table tr .translate-icon {
   height: 15px;
 }
 
+body .content-menu {
+  height: 20px;
+  font-size: 14px;
+  list-style-type: none;
+}
+
+body .content-menu li {
+  padding: 6px 0px;
+  float: right;
+  margin-left: 22px;
+}
+
+body .content-menu li:first-child {
+  margin-right: 22px;
+}
+
+body .content-menu .session-button {
+  background-color: #4285f4;
+  padding: 6px 15px;
+  color: white;
+  border-radius: 5px;
+}
+
 body .page-content {
+  clear: both;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -171,7 +189,8 @@ body .page-content {
       -ms-flex-pack: center;
           justify-content: center;
   text-align: center;
-  height: 780px;
+  height: 740px;
+  width: auto;
 }
 
 body .page-content .search-area {
@@ -189,6 +208,24 @@ body .page-content .search-area button:last-child {
   margin-left: 30px;
 }
 
+body .page-content .search-area img:not(.home-image) {
+  width: 1em;
+  position: absolute;
+  top: 542px;
+}
+
+body .page-content .search-area .search-icon {
+  left: 758px;
+}
+
+body .page-content .search-area .microphone-icon {
+  left: 1130px;
+}
+
+body .page-content .search-area .keyboard-icon {
+  left: 1160px;
+}
+
 body .page-content .home-image {
   margin: auto;
   width: 450px;
@@ -200,7 +237,7 @@ body .page-content .home-search-bar {
   height: 30px;
   border-radius: 20px;
   border: 1px solid rgba(75, 75, 75, 0.6);
-  text-indent: 1em;
+  text-indent: 3em;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -218,10 +255,6 @@ body footer #location {
   margin-left: 50px !important;
 }
 
-body footer ul {
-  width: 95%;
-}
-
 body footer ul li {
   list-style-type: none;
   float: left;
@@ -230,5 +263,9 @@ body footer ul li {
 
 body footer ul .right-menu {
   float: right;
+}
+
+body footer ul:last-child {
+  border-top: 1px solid rgba(75, 75, 75, 0.4);
 }
 /*# sourceMappingURL=main.css.map */
