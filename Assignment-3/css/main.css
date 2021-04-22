@@ -33,6 +33,7 @@ body .navbar .tab ul .browser-tab {
 
 body .navbar .tab ul .browser-tab i:hover:not(.tab-icon) {
   background-color: rgba(39, 39, 39, 0.4);
+  cursor: pointer;
 }
 
 body .navbar .tab ul .browser-tab .tab-icon {
@@ -47,6 +48,7 @@ body .navbar .tab ul .browser-tab-add {
 
 body .navbar .tab ul .browser-tab-add i:hover {
   background-color: rgba(75, 75, 75, 0.4);
+  cursor: pointer;
 }
 
 body .navbar .tab ul .browser-option {
@@ -59,6 +61,7 @@ body .navbar .tab ul .browser-option i {
 }
 
 body .navbar .tab ul .browser-option i:hover {
+  cursor: pointer;
   background-color: rgba(75, 75, 75, 0.4);
 }
 
@@ -74,6 +77,7 @@ body .navbar .tab span {
 
 body .navbar .tab .add-icon {
   float: inline-end;
+  cursor: pointer;
 }
 
 body .navbar .tab .exit-icon {
@@ -115,6 +119,7 @@ body .navbar table tr .search-column i {
   position: absolute;
   margin: 3px 10px;
   color: white;
+  cursor: pointer;
 }
 
 body .navbar table tr .search-column input {
@@ -154,6 +159,10 @@ body .navbar table tr .translate-icon {
   height: 15px;
 }
 
+body .navbar table tr .nav-column {
+  cursor: pointer;
+}
+
 body .content-menu {
   height: 20px;
   font-size: 14px;
@@ -175,6 +184,11 @@ body .content-menu .session-button {
   padding: 6px 15px;
   color: white;
   border-radius: 5px;
+  cursor: pointer;
+}
+
+body .content-menu .session-button:hover {
+  background-color: rgba(66, 133, 244, 0.8);
 }
 
 body .page-content {
@@ -202,6 +216,7 @@ body .page-content .search-area button {
   padding: 8px 13px;
   font-family: "Open Sans", sans-serif;
   border: none;
+  cursor: pointer;
 }
 
 body .page-content .search-area button:last-child {
@@ -211,7 +226,7 @@ body .page-content .search-area button:last-child {
 body .page-content .search-area img:not(.home-image) {
   width: 1em;
   position: absolute;
-  top: 542px;
+  top: 540px;
 }
 
 body .page-content .search-area .search-icon {
