@@ -18,7 +18,6 @@ body .navbar .tab {
 }
 
 body .navbar .tab ul {
-  overflow: hidden;
   margin: 0px;
   padding: 0px;
   list-style-type: none;
@@ -54,6 +53,7 @@ body .navbar .tab ul .browser-tab-add i:hover {
 body .navbar .tab ul .browser-option {
   float: right;
   margin-left: 3px;
+  cursor: pointer;
 }
 
 body .navbar .tab ul .browser-option i {
@@ -61,7 +61,6 @@ body .navbar .tab ul .browser-option i {
 }
 
 body .navbar .tab ul .browser-option i:hover {
-  cursor: pointer;
   background-color: rgba(75, 75, 75, 0.4);
 }
 
@@ -225,20 +224,28 @@ body .page-content .search-area button:last-child {
 
 body .page-content .search-area img:not(.home-image) {
   width: 1em;
-  position: absolute;
   top: 540px;
 }
 
-body .page-content .search-area .search-icon {
-  left: 758px;
+body .page-content .search-area .search-icons-area {
+  border: 1px solid rgba(75, 75, 75, 0.6);
+  padding: 3px;
+  border-radius: 20px;
+  display: block;
+  text-align: left !important;
 }
 
-body .page-content .search-area .microphone-icon {
-  left: 1130px;
+body .page-content .search-area .search-icons-area .search-icon {
+  padding-left: 10px;
 }
 
-body .page-content .search-area .keyboard-icon {
-  left: 1160px;
+body .page-content .search-area .search-icons-area .microphone-icon {
+  float: right;
+  margin-left: 10px;
+}
+
+body .page-content .search-area .search-icons-area .keyboard-icon {
+  float: right;
 }
 
 body .page-content .home-image {
@@ -248,11 +255,9 @@ body .page-content .home-image {
 }
 
 body .page-content .home-search-bar {
-  width: 450px;
-  height: 30px;
-  border-radius: 20px;
-  border: 1px solid rgba(75, 75, 75, 0.6);
-  text-indent: 3em;
+  width: 83%;
+  height: 20px;
+  border: none;
   font-family: "Open Sans", sans-serif;
 }
 

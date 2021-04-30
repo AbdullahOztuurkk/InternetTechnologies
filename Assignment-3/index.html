@@ -4,6 +4,7 @@
 		<meta charset="utf-8" />
 		<title>Google</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="icon" href="./images/favicon.ico">
 		<link rel="stylesheet" type="text/css" media="screen" href="./css/main.css"/>
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
 		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
@@ -50,7 +51,7 @@
 					</td><!--Search bar column-->
 					<td>
 						<a><img src="./images/translate.png" class="translate-icon"></a>
-					</td><!--Bookmark column (Actually translate column)-->
+					</td><!--(translate column)-->
 					<td>
 						<a><i class="fa fa-puzzle-piece" aria-hidden="true"></i></a>
 					</td><!--Extensions column-->
@@ -65,7 +66,7 @@
 					</td><!--Settings Column-->
 				</tr>
 			</table>
-			<!--Page Content Menu-->
+			<!--Navbar-->
 			<ul class="content-menu">
 				<li class="session-button"><a><span>Oturum açın</span></a></li>
 				<li><a><i class="fa fa-th" aria-hidden="true"></i></a></li>
@@ -73,14 +74,16 @@
 				<li><a><span>Gmail</span></a></li>
 			</ul>
 		</div>
-		<!--Navbar-->
+		<!--Page Content Menu-->
 		<div class="page-content">
 			<div class="search-area">
 				<img class="home-image" src="./images/poster.png" alt="Google Image">
-				<img class="search-icon" src="./images/search.png" alt="Search Icon">
-				<input type="text" class="home-search-bar"/>
-				<img class="microphone-icon" src="./images/microphone.png" alt="Microphone Icon">
-				<img class="keyboard-icon" src="./images/keyboard.png" alt="Keyboard Icon">
+				<div class="search-icons-area">
+					<img class="search-icon" src="./images/search.png" alt="Search Icon">
+					<input type="text" class="home-search-bar"/>	
+					<img class="microphone-icon" src="./images/microphone.png" alt="Microphone Icon">
+					<img class="keyboard-icon" src="./images/keyboard.png" alt="Keyboard Icon">
+				</div>
 				<button type="submit">Google'da Ara</button>
 				<button type="submit">Kendimi şanslı hissediyorum</button>
 			</div>
