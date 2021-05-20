@@ -1,14 +1,3 @@
-//Add close button to all product items
-var product_list = document.getElementsByTagName("LI")
-var i;
-for (i = 0; i < product_list.length; i++) {
-  var span = document.createElement("SPAN");
-  var txt = document.createTextNode("\u00D7");
-  span.className = "close-button";
-  span.appendChild(txt);
-  product_list[i].appendChild(span);
-}
-
 // Click on a close button to hide the current product
 var close = document.getElementsByClassName("close-button");
 var i;
