@@ -3,9 +3,10 @@
 You can access the projects in the 'internet technologies' course, which I took during my university education, through this repository. 
 
 ### Used Technologies
-* HTML
-* CSS
-* Font Awesome
+- HTML
+- CSS
+- Font Awesome
+- Javascript
 
 ### Projects
 
