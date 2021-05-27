@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./assets/js/trello.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <title>Trello Clone</title>
+</head>
+<body>
+    <h2 class="title">Takım Projesi</h2>
+    <div class="container">
+        <div class="section">
+            <h3>Bekleyen İşler</h3>
+            <ul id="pending-task" class="pending" ondrop="dropTask(event)" ondragover="event.preventDefault()">
+
+            </ul>
+        </div>
+        <div class="section">
+            <h3>Devam Eden İşler</h3>
+            <ul id="ongoing-task" class="ongoing" ondrop="dropTask(event)" ondragover="event.preventDefault()">
+
+            </ul>
+        </div>
+        <div class="section">
+            <h3>Biten İşler</h3>
+            <ul id="completed-task" class="completed" ondrop="dropTask(event)" ondragover="event.preventDefault()">
+
+            </ul>
+        </div>
+        <div class="section">
+            <h3>Görev Ekle</h3>
+            <ul class="menu">
+                <li>
+                    <input type="text" placeholder="Başlık" id='task-title'>
+                </li>
+                <li>
+                    <textarea cols="2" rows="3" placeholder="Açıklama" id='task-description'></textarea>
+                </li>
+                <li>
+                    <input type='text' placeholder="Bitiş Tarihi(dd.mm.yyyy)" onfocus="(this.type='date')"  id='task-date'>
+                </li>
+                <li>
+                    <button type="submit" onclick="addTask()">Görev Ekle</button>
+                </li>
+                <li>
+                    <button type="reset" onclick="deleteTasks()">Temizle</button>
+                </li>
+                <li id="deleted-area" ondrop="deleteTask(event)" ondragover="event.preventDefault()">
+                    Silmek için sürükle
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
