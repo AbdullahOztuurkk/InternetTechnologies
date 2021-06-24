@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Application</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body class="center">
+    <!--Başlangıç menüsü-->
+    <div class="start_box center">
+        <button class="start_btn" onclick="ShowAboutBox()" value="Start Quiz">Sınav hakkında daha fazla bilgi için tıkla</button>
+    </div>
+
+    <!--Kurallar ve Butonlar-->
+    <div class="about_box hidden">
+        <div class="about_title center">Quiz Uygulamasının Kuralları</div>
+        <ul class="rule_list">
+            <li class="rule">1. Her bir soru için 10 saniyeniz var.</li>
+            <li class="rule">2. Cevap verdikten sonra iptal edemezsiniz.</li>
+            <li class="rule">3. Zaman aşımı durumunda soru yanlış kabul edilecektir.</li>
+            <li class="rule">4. Quiz sırasında çıkmanız durumunda başarısız kabul edilir.</li>
+        </ul>
+        <div class="about_button_box">
+            <button onclick="LeaveAboutBox()" class="about_btn quit_btn">Çıkış Yap</button>
+            <button onclick="StartQuiz()" class="about_btn play_btn">Sınava Başla</button>
+        </div>
+    </div>
+
+    <!--Soru Ekranı-->
+    <div class="question_box hidden">
+        <header>
+            <div class="question_title"><!--Aşağıdakilerden hangisi bilgisayarlar arasındaki farklılıkların nedenlerinden biri değildir?--></div>
+            <div class="timer">
+                <span>Kalan Süre <span id="timer_sec"></span></span>
+            </div>
+        </header>
+        <div class="que_box_content">
+            <ul class="question_options">
+                <!--
+                <li class="que_options">Kapasite</li>
+                <li class="que_options">Hız</li>
+                <li class="que_options">Güvenlik</li>
+                <li class="que_options">Maliyet</li>
+                -->
+            </ul>
+        </div>
+        <footer>
+            <div class="quiz_status">
+                Sonuç : <span class="status_text">3 / 5</span>
+            </div>
+            <!--<button class="about_btn next_que_btn" onclick="NextQuestion()">Geç</button>-->
+        </footer>
+    </div>
+
+    <!--Sonuç Ekranı-->
+    <div class="result_box hidden">
+        <div class="result_title">Tebrikler</div>
+        <div class="result_content">
+            <!--<p>5 sorudan 3 tane doğru yaptınız.</p>-->    
+        </div>
+        <div class="result_button_box">
+            <button class="about_btn next_que_btn" onclick="RestartQuiz()">Baştan başla</button>
+        </div>
+    </div>
+
+    <!--JS Dosyalarının eklenmesi-->
+    <script src="assets/js/questions.js"></script>
+    <script src="assets/js/index.js"></script>
+    
+</body>
+</html>
