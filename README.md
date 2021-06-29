@@ -6,6 +6,7 @@ You can access the projects in the 'internet technologies' course, which I took 
 - HTML
 - CSS
 - Font Awesome
+- Jekyll
 - Javascript
 
 ### Projects
@@ -18,4 +19,5 @@ You can access the projects in the 'internet technologies' course, which I took 
 | Jekyll Conference Page | [index.html](https://github.com/AbdullahOztuurkk/AbdullahOztuurkk.github.io) | [Demo](https://abdullahoztuurkk.github.io/) | [Video](https://youtu.be/FtIC-_LBL40)
 | Product Page like Todo App |[index.html](./Assignment-4/index.html) | [Demo](https://internet-technologies.vercel.app/Assignment-4/index.html) | [Video](https://www.youtube.com/watch?v=5A7I4AoUMOo)
 | Trello Clone App With Vanilla JS|[index.html](./Assignment-5/index.html) | [Demo](https://internet-technologies.vercel.app/Assignment-5/index.html) | [Video](https://youtu.be/wN6rno7lZxY)
+| Quiz Application With Timer | [index.html](./Assignment-6/index.html) | [Demo](https://internet-technologies.vercel.app/Assignment-6/index.html) | [Video](https://www.youtube.com/watch?v=fcP5T2cVA34)
 
